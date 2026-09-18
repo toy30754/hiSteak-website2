@@ -1,0 +1,25 @@
+# Cloudflare Pages: canonical path redirects; do not add a catch-all 200 rewrite.
+/index.html / 301
+/assets/menu.jpg /menu/ 301
+/menu /menu/ 301
+/menu/index.html /menu/ 301
+/location /location/ 301
+/location/index.html /location/ 301
+/about /about/ 301
+/about/index.html /about/ 301
+/faq /faq/ 301
+/faq/index.html /faq/ 301
+/blog /blog/ 301
+/blog/index.html /blog/ 301
+/blog/nantun-steak /blog/nantun-steak/ 301
+/blog/nantun-steak/index.html /blog/nantun-steak/ 301
+/blog/taichung-steak /blog/taichung-steak/ 301
+/blog/taichung-steak/index.html /blog/taichung-steak/ 301
+/blog/hi-steak-menu /blog/hi-steak-menu/ 301
+/blog/hi-steak-menu/index.html /blog/hi-steak-menu/ 301
+/blog/steak-doneness /blog/steak-doneness/ 301
+/blog/steak-doneness/index.html /blog/steak-doneness/ 301
+/blog/nantun-food /blog/nantun-food/ 301
+/blog/nantun-food/index.html /blog/nantun-food/ 301
+/privacy /privacy/ 301
+/privacy/index.html /privacy/ 301

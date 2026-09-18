@@ -1,0 +1,43 @@
+海牛排 Hi Steak｜SEO 多頁網站
+正式網址：https://histeak.shop/
+製作日期：2026-09-18
+
+這個 ZIP 內已是可部署的 HTML、CSS、JavaScript 與圖片，不需要建置。
+12 個主要頁面，加上 404 頁、sitemap.xml、robots.txt。
+
+一、在電腦看網站
+先完整解壓縮，再以 Chrome 或 Edge 開啟最外層 index.html。
+一般頁面連結已支援本機預覽。正式網址、地圖、電話與外送連結會連到相應服務。
+本機預覽不代表網站已上線，亦不能確認 Google 是否已收錄。
+
+二、更新現有 GitHub / Cloudflare 網站
+1. 先在 GitHub 下載現有網站 ZIP 備份。
+2. 解壓縮本次 ZIP，將內容上傳到原 repository 的最外層。
+   最外層必須看到 index.html、assets、menu、location、about、faq、blog、privacy。
+   不要只上傳 ZIP，也不要額外包一層資料夾。
+3. 使用 GitHub「Add file → Upload files」，上傳解壓縮後的檔案及資料夾，再提交變更。
+4. 若 Cloudflare 已連接這個 GitHub repository，等待正式分支部署完成。
+   這是純靜態網站，沿用現有可用的靜態 HTML 設定，不需額外執行建置。
+5. 若原本使用 Cloudflare Pages 直接上傳，則在原專案建立新的正式部署，上傳這個 ZIP。
+6. 保留你另外設定的驗證檔、DNS 與後台設定；本包未包含你的帳戶驗證資料。
+
+三、上線後一定要確認
+- https://histeak.shop/ 與 /menu/、/location/、/faq/、/blog/ 均能正常開啟。
+- https://histeak.shop/sitemap.xml 可讀取，內含 12 個網址。
+- https://histeak.shop/robots.txt 可讀取，沒有封鎖 Googlebot。
+- 開啟 Cloudflare 的 Always Use HTTPS，讓 HTTP 轉到 HTTPS。
+- 若有使用 www，確認 www 網域與憑證有效，再設定 301/308 轉到非 www 正式網域並保留路徑。
+- 在 Google Search Console 驗證 histeak.shop，提交 sitemap.xml，檢查首頁、菜單及交通頁。
+- 在 Google 商家檔案填入 https://histeak.shop/，菜單網址填入 https://histeak.shop/menu/。
+
+營業時間已依本次確認：平日 16:30–22:00；週末 11:00–22:00；最後點餐 21:30。
+門市價格依 GitHub 既有菜單圖片整理；外送價格以平台為準。
+舊菜單圖片印有不同營業時間，本版以文字菜單取代；原 /assets/menu.jpg 轉至 /menu/。
+
+所有實際菜價、訂位與外帶安排，請在上線前由店家快速覆核。
+本版沒有接入即時訂位或結帳系統；電話、導航與 Uber Eats 按鈕連到原服務。
+Cloudflare Web Analytics 由現有託管設定載入，隱私權頁已說明。
+
+本次未代為發布、變更 Cloudflare/DNS、提交 Search Console 或修改 Google 商家資料。
+沒有任何網站檔案可以保證 Google 第一名，收錄與排名也需要時間。
+完整健檢與逐步上線說明請閱讀一併交付的 hiSteak-SEO-Audit-and-Launch-Guide.html。
